@@ -87,10 +87,43 @@
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/camera.h">
 			<Option target="L3"/>
 		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/engine.cpp">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/engine.h">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/inputhandler.cpp">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/inputhandler.h">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/logic.cpp">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/logic.h">
+			<Option target="L3"/>
+		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/main.cpp">
 			<Option target="L3"/>
 		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp">
+			<Option target="L3"/>
+		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/shader.h">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/sphere.cpp">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/sphere.h">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/window.cpp">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/window.h">
 			<Option target="L3"/>
 		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/CMakeLists.txt">

@@ -77,9 +77,22 @@ include CMakeFiles/L3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/L3.dir/flags.make
 
+CMakeFiles/L3.dir/src/mmain.cpp.o: CMakeFiles/L3.dir/flags.make
+CMakeFiles/L3.dir/src/mmain.cpp.o: ../src/mmain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/L3.dir/src/mmain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/mmain.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp
+
+CMakeFiles/L3.dir/src/mmain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L3.dir/src/mmain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp > CMakeFiles/L3.dir/src/mmain.cpp.i
+
+CMakeFiles/L3.dir/src/mmain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/mmain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp -o CMakeFiles/L3.dir/src/mmain.cpp.s
+
 CMakeFiles/L3.dir/src/main.cpp.o: CMakeFiles/L3.dir/flags.make
 CMakeFiles/L3.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/L3.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/L3.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/main.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/main.cpp
 
 CMakeFiles/L3.dir/src/main.cpp.i: cmake_force
@@ -90,17 +103,94 @@ CMakeFiles/L3.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/main.cpp -o CMakeFiles/L3.dir/src/main.cpp.s
 
+CMakeFiles/L3.dir/src/engine.cpp.o: CMakeFiles/L3.dir/flags.make
+CMakeFiles/L3.dir/src/engine.cpp.o: ../src/engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/L3.dir/src/engine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/engine.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/engine.cpp
+
+CMakeFiles/L3.dir/src/engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L3.dir/src/engine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladyslav/CLionProjects/opengl_light/src/engine.cpp > CMakeFiles/L3.dir/src/engine.cpp.i
+
+CMakeFiles/L3.dir/src/engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/engine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/engine.cpp -o CMakeFiles/L3.dir/src/engine.cpp.s
+
+CMakeFiles/L3.dir/src/window.cpp.o: CMakeFiles/L3.dir/flags.make
+CMakeFiles/L3.dir/src/window.cpp.o: ../src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/L3.dir/src/window.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/window.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/window.cpp
+
+CMakeFiles/L3.dir/src/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L3.dir/src/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladyslav/CLionProjects/opengl_light/src/window.cpp > CMakeFiles/L3.dir/src/window.cpp.i
+
+CMakeFiles/L3.dir/src/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/window.cpp -o CMakeFiles/L3.dir/src/window.cpp.s
+
+CMakeFiles/L3.dir/src/sphere.cpp.o: CMakeFiles/L3.dir/flags.make
+CMakeFiles/L3.dir/src/sphere.cpp.o: ../src/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/L3.dir/src/sphere.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/sphere.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/sphere.cpp
+
+CMakeFiles/L3.dir/src/sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L3.dir/src/sphere.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladyslav/CLionProjects/opengl_light/src/sphere.cpp > CMakeFiles/L3.dir/src/sphere.cpp.i
+
+CMakeFiles/L3.dir/src/sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/sphere.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/sphere.cpp -o CMakeFiles/L3.dir/src/sphere.cpp.s
+
+CMakeFiles/L3.dir/src/logic.cpp.o: CMakeFiles/L3.dir/flags.make
+CMakeFiles/L3.dir/src/logic.cpp.o: ../src/logic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/L3.dir/src/logic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/logic.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/logic.cpp
+
+CMakeFiles/L3.dir/src/logic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L3.dir/src/logic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladyslav/CLionProjects/opengl_light/src/logic.cpp > CMakeFiles/L3.dir/src/logic.cpp.i
+
+CMakeFiles/L3.dir/src/logic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/logic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/logic.cpp -o CMakeFiles/L3.dir/src/logic.cpp.s
+
+CMakeFiles/L3.dir/src/inputhandler.cpp.o: CMakeFiles/L3.dir/flags.make
+CMakeFiles/L3.dir/src/inputhandler.cpp.o: ../src/inputhandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/L3.dir/src/inputhandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/inputhandler.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/inputhandler.cpp
+
+CMakeFiles/L3.dir/src/inputhandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L3.dir/src/inputhandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladyslav/CLionProjects/opengl_light/src/inputhandler.cpp > CMakeFiles/L3.dir/src/inputhandler.cpp.i
+
+CMakeFiles/L3.dir/src/inputhandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/inputhandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/inputhandler.cpp -o CMakeFiles/L3.dir/src/inputhandler.cpp.s
+
 # Object files for target L3
 L3_OBJECTS = \
-"CMakeFiles/L3.dir/src/main.cpp.o"
+"CMakeFiles/L3.dir/src/mmain.cpp.o" \
+"CMakeFiles/L3.dir/src/main.cpp.o" \
+"CMakeFiles/L3.dir/src/engine.cpp.o" \
+"CMakeFiles/L3.dir/src/window.cpp.o" \
+"CMakeFiles/L3.dir/src/sphere.cpp.o" \
+"CMakeFiles/L3.dir/src/logic.cpp.o" \
+"CMakeFiles/L3.dir/src/inputhandler.cpp.o"
 
 # External object files for target L3
 L3_EXTERNAL_OBJECTS =
 
+L3: CMakeFiles/L3.dir/src/mmain.cpp.o
 L3: CMakeFiles/L3.dir/src/main.cpp.o
+L3: CMakeFiles/L3.dir/src/engine.cpp.o
+L3: CMakeFiles/L3.dir/src/window.cpp.o
+L3: CMakeFiles/L3.dir/src/sphere.cpp.o
+L3: CMakeFiles/L3.dir/src/logic.cpp.o
+L3: CMakeFiles/L3.dir/src/inputhandler.cpp.o
 L3: CMakeFiles/L3.dir/build.make
 L3: CMakeFiles/L3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable L3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable L3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/L3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

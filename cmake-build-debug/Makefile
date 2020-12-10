@@ -143,6 +143,87 @@ L3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/build
 .PHONY : L3/fast
 
+src/engine.o: src/engine.cpp.o
+
+.PHONY : src/engine.o
+
+# target to build an object file
+src/engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/engine.cpp.o
+.PHONY : src/engine.cpp.o
+
+src/engine.i: src/engine.cpp.i
+
+.PHONY : src/engine.i
+
+# target to preprocess a source file
+src/engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/engine.cpp.i
+.PHONY : src/engine.cpp.i
+
+src/engine.s: src/engine.cpp.s
+
+.PHONY : src/engine.s
+
+# target to generate assembly for a file
+src/engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/engine.cpp.s
+.PHONY : src/engine.cpp.s
+
+src/inputhandler.o: src/inputhandler.cpp.o
+
+.PHONY : src/inputhandler.o
+
+# target to build an object file
+src/inputhandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/inputhandler.cpp.o
+.PHONY : src/inputhandler.cpp.o
+
+src/inputhandler.i: src/inputhandler.cpp.i
+
+.PHONY : src/inputhandler.i
+
+# target to preprocess a source file
+src/inputhandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/inputhandler.cpp.i
+.PHONY : src/inputhandler.cpp.i
+
+src/inputhandler.s: src/inputhandler.cpp.s
+
+.PHONY : src/inputhandler.s
+
+# target to generate assembly for a file
+src/inputhandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/inputhandler.cpp.s
+.PHONY : src/inputhandler.cpp.s
+
+src/logic.o: src/logic.cpp.o
+
+.PHONY : src/logic.o
+
+# target to build an object file
+src/logic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/logic.cpp.o
+.PHONY : src/logic.cpp.o
+
+src/logic.i: src/logic.cpp.i
+
+.PHONY : src/logic.i
+
+# target to preprocess a source file
+src/logic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/logic.cpp.i
+.PHONY : src/logic.cpp.i
+
+src/logic.s: src/logic.cpp.s
+
+.PHONY : src/logic.s
+
+# target to generate assembly for a file
+src/logic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/logic.cpp.s
+.PHONY : src/logic.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -170,6 +251,87 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mmain.o: src/mmain.cpp.o
+
+.PHONY : src/mmain.o
+
+# target to build an object file
+src/mmain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/mmain.cpp.o
+.PHONY : src/mmain.cpp.o
+
+src/mmain.i: src/mmain.cpp.i
+
+.PHONY : src/mmain.i
+
+# target to preprocess a source file
+src/mmain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/mmain.cpp.i
+.PHONY : src/mmain.cpp.i
+
+src/mmain.s: src/mmain.cpp.s
+
+.PHONY : src/mmain.s
+
+# target to generate assembly for a file
+src/mmain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/mmain.cpp.s
+.PHONY : src/mmain.cpp.s
+
+src/sphere.o: src/sphere.cpp.o
+
+.PHONY : src/sphere.o
+
+# target to build an object file
+src/sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/sphere.cpp.o
+.PHONY : src/sphere.cpp.o
+
+src/sphere.i: src/sphere.cpp.i
+
+.PHONY : src/sphere.i
+
+# target to preprocess a source file
+src/sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/sphere.cpp.i
+.PHONY : src/sphere.cpp.i
+
+src/sphere.s: src/sphere.cpp.s
+
+.PHONY : src/sphere.s
+
+# target to generate assembly for a file
+src/sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/sphere.cpp.s
+.PHONY : src/sphere.cpp.s
+
+src/window.o: src/window.cpp.o
+
+.PHONY : src/window.o
+
+# target to build an object file
+src/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/window.cpp.o
+.PHONY : src/window.cpp.o
+
+src/window.i: src/window.cpp.i
+
+.PHONY : src/window.i
+
+# target to preprocess a source file
+src/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/window.cpp.i
+.PHONY : src/window.cpp.i
+
+src/window.s: src/window.cpp.s
+
+.PHONY : src/window.s
+
+# target to generate assembly for a file
+src/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/window.cpp.s
+.PHONY : src/window.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +341,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... L3"
+	@echo "... src/engine.o"
+	@echo "... src/engine.i"
+	@echo "... src/engine.s"
+	@echo "... src/inputhandler.o"
+	@echo "... src/inputhandler.i"
+	@echo "... src/inputhandler.s"
+	@echo "... src/logic.o"
+	@echo "... src/logic.i"
+	@echo "... src/logic.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mmain.o"
+	@echo "... src/mmain.i"
+	@echo "... src/mmain.s"
+	@echo "... src/sphere.o"
+	@echo "... src/sphere.i"
+	@echo "... src/sphere.s"
+	@echo "... src/window.o"
+	@echo "... src/window.i"
+	@echo "... src/window.s"
 .PHONY : help
 
 
