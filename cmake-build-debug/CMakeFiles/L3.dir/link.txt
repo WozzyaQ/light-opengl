@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/L3.dir/src/main.cpp.o CMakeFiles/L3.dir/src/glad.c.o CMakeFiles/L3.dir/src/stb_image.cpp.o  -o L3   -L/home/vladyslav/CLionProjects/opengl_light/lib  -Wl,-rpath,/home/vladyslav/CLionProjects/opengl_light/lib -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl 
+/usr/bin/c++  -g   CMakeFiles/L3.dir/src/main.cpp.o  -o L3  -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl -lGLEW 

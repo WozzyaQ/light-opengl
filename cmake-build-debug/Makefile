@@ -143,33 +143,6 @@ L3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/build
 .PHONY : L3/fast
 
-src/glad.o: src/glad.c.o
-
-.PHONY : src/glad.o
-
-# target to build an object file
-src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/glad.c.o
-.PHONY : src/glad.c.o
-
-src/glad.i: src/glad.c.i
-
-.PHONY : src/glad.i
-
-# target to preprocess a source file
-src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/glad.c.i
-.PHONY : src/glad.c.i
-
-src/glad.s: src/glad.c.s
-
-.PHONY : src/glad.s
-
-# target to generate assembly for a file
-src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/glad.c.s
-.PHONY : src/glad.c.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -197,33 +170,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/stb_image.o: src/stb_image.cpp.o
-
-.PHONY : src/stb_image.o
-
-# target to build an object file
-src/stb_image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/stb_image.cpp.o
-.PHONY : src/stb_image.cpp.o
-
-src/stb_image.i: src/stb_image.cpp.i
-
-.PHONY : src/stb_image.i
-
-# target to preprocess a source file
-src/stb_image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/stb_image.cpp.i
-.PHONY : src/stb_image.cpp.i
-
-src/stb_image.s: src/stb_image.cpp.s
-
-.PHONY : src/stb_image.s
-
-# target to generate assembly for a file
-src/stb_image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/stb_image.cpp.s
-.PHONY : src/stb_image.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -233,15 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... L3"
-	@echo "... src/glad.o"
-	@echo "... src/glad.i"
-	@echo "... src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/stb_image.o"
-	@echo "... src/stb_image.i"
-	@echo "... src/stb_image.s"
 .PHONY : help
 
 

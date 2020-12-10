@@ -84,16 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/glad.c">
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/camera.h">
 			<Option target="L3"/>
 		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/main.cpp">
 			<Option target="L3"/>
 		</Unit>
-		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/stb_image.cpp">
-			<Option target="L3"/>
-		</Unit>
-		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/stb_image.h">
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/shader.h">
 			<Option target="L3"/>
 		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/CMakeLists.txt">
