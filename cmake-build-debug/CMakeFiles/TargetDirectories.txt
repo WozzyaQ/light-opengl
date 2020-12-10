@@ -1,0 +1,3 @@
+/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles/L3.dir
