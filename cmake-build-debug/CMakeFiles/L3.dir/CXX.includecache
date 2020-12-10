@@ -1418,63 +1418,15 @@ glm/gtc/matrix_transform.hpp
 vector
 -
 
-/home/vladyslav/CLionProjects/opengl_light/src/engine.cpp
-engine.h
-/home/vladyslav/CLionProjects/opengl_light/src/engine.h
-
-/home/vladyslav/CLionProjects/opengl_light/src/engine.h
-camera.h
-/home/vladyslav/CLionProjects/opengl_light/src/camera.h
-sphere.h
-/home/vladyslav/CLionProjects/opengl_light/src/sphere.h
-window.h
-/home/vladyslav/CLionProjects/opengl_light/src/window.h
+/home/vladyslav/CLionProjects/opengl_light/src/logic.cpp
 logic.h
 /home/vladyslav/CLionProjects/opengl_light/src/logic.h
-inputhandler.h
-/home/vladyslav/CLionProjects/opengl_light/src/inputhandler.h
-
-/home/vladyslav/CLionProjects/opengl_light/src/inputhandler.cpp
-inputhandler.h
-/home/vladyslav/CLionProjects/opengl_light/src/inputhandler.h
-
-/home/vladyslav/CLionProjects/opengl_light/src/inputhandler.h
-camera.h
-/home/vladyslav/CLionProjects/opengl_light/src/camera.h
-window.h
-/home/vladyslav/CLionProjects/opengl_light/src/window.h
-GLFW/glfw3.h
--
 
 /home/vladyslav/CLionProjects/opengl_light/src/logic.h
 utility
 -
 sphere.h
 /home/vladyslav/CLionProjects/opengl_light/src/sphere.h
-
-/home/vladyslav/CLionProjects/opengl_light/src/main.cpp
-engine.h
-/home/vladyslav/CLionProjects/opengl_light/src/engine.h
-
-/home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp
-iostream
--
-vector
--
-cmath
--
-GL/glew.h
--
-engine.h
-/home/vladyslav/CLionProjects/opengl_light/src/engine.h
-GLFW/glfw3.h
--
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-../utils/stb_image.h
-/home/vladyslav/CLionProjects/opengl_light/utils/stb_image.h
 camera.h
 /home/vladyslav/CLionProjects/opengl_light/src/camera.h
 
@@ -1496,6 +1448,10 @@ glm/glm.hpp
 glm/gtc/type_ptr.hpp
 -
 
+/home/vladyslav/CLionProjects/opengl_light/src/sphere.cpp
+sphere.h
+/home/vladyslav/CLionProjects/opengl_light/src/sphere.h
+
 /home/vladyslav/CLionProjects/opengl_light/src/sphere.h
 ../utils/stb_image.h
 /home/vladyslav/CLionProjects/opengl_light/utils/stb_image.h
@@ -1505,10 +1461,18 @@ GL/glew.h
 -
 shader.h
 /home/vladyslav/CLionProjects/opengl_light/src/shader.h
+camera.h
+/home/vladyslav/CLionProjects/opengl_light/src/camera.h
+sphere_behaviour.h
+/home/vladyslav/CLionProjects/opengl_light/src/sphere_behaviour.h
 
-/home/vladyslav/CLionProjects/opengl_light/src/window.h
-shader.h
-/home/vladyslav/CLionProjects/opengl_light/src/shader.h
+/home/vladyslav/CLionProjects/opengl_light/src/sphere_behaviour.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+GLFW/glfw3.h
+-
 
 /home/vladyslav/CLionProjects/opengl_light/utils/stb_image.h
 stb_image.h

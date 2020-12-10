@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vladyslav/CLionProjects/opengl_light/src/main.cpp" "/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles/L3.dir/src/main.cpp.o"
   "/home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp" "/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles/L3.dir/src/mmain.cpp.o"
   "/home/vladyslav/CLionProjects/opengl_light/src/sphere.cpp" "/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles/L3.dir/src/sphere.cpp.o"
+  "/home/vladyslav/CLionProjects/opengl_light/src/sphere_behaviour.cpp" "/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles/L3.dir/src/sphere_behaviour.cpp.o"
   "/home/vladyslav/CLionProjects/opengl_light/src/window.cpp" "/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles/L3.dir/src/window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -9,6 +9,8 @@
 #include <vector>
 #include <GL/glew.h>
 #include "shader.h"
+#include "camera.h"
+#include "sphere_behaviour.h"
 #define STB_IMAGE_IMPLEMENTATION
 
 class Sphere {
@@ -27,6 +29,8 @@ private:
     unsigned int stack;
     float radius;
 
+    static unsigned int index;
+    static void indexUp();
 
 public:
     Sphere(std::string, Shader*, unsigned int, unsigned int, float);
@@ -34,6 +38,7 @@ public:
     void generateIndices();
     void loadTexture();
     void bindAttributes();
+    void draw(int, Camera*, int width, int height);
 };
 
 

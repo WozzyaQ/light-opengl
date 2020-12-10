@@ -19,16 +19,16 @@ void Engine::init() {
 
 void Engine::loop() {
 
-    float deltaTime = 0.0f;
+    float dt = 0.0f;
     float lastFrame = 0.0f;
 
     while(!glfwWindowShouldClose(window->getWindowHandle()))
     {
-        float currentFrame = glfwGetTime();
-        deltaTime = currentFrame - lastFrame;
-        lastFrame = currentFrame;
+        float curFrame = glfwGetTime();
+        dt = curFrame - lastFrame;
+        lastFrame = curFrame;
 
-        InputHandler::inputHandle(deltaTime);
+        InputHandler::inputHandle(dt);
 
         glfwSetCursorPosCallback(window->getWindowHandle(), InputHandler::mouseCallback);
         glfwSetScrollCallback(window->getWindowHandle(), InputHandler::scrollCallback);
@@ -37,7 +37,7 @@ void Engine::loop() {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 
-
+        logic->run(camera, window->getWidth(), window->getHeight());
 
 
         glfwSwapBuffers(window->getWindowHandle());

@@ -120,6 +120,12 @@
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/sphere.h">
 			<Option target="L3"/>
 		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/sphere_behaviour.cpp">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/sphere_behaviour.h">
+			<Option target="L3"/>
+		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/window.cpp">
 			<Option target="L3"/>
 		</Unit>

@@ -305,6 +305,33 @@ src/sphere.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/sphere.cpp.s
 .PHONY : src/sphere.cpp.s
 
+src/sphere_behaviour.o: src/sphere_behaviour.cpp.o
+
+.PHONY : src/sphere_behaviour.o
+
+# target to build an object file
+src/sphere_behaviour.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/sphere_behaviour.cpp.o
+.PHONY : src/sphere_behaviour.cpp.o
+
+src/sphere_behaviour.i: src/sphere_behaviour.cpp.i
+
+.PHONY : src/sphere_behaviour.i
+
+# target to preprocess a source file
+src/sphere_behaviour.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/sphere_behaviour.cpp.i
+.PHONY : src/sphere_behaviour.cpp.i
+
+src/sphere_behaviour.s: src/sphere_behaviour.cpp.s
+
+.PHONY : src/sphere_behaviour.s
+
+# target to generate assembly for a file
+src/sphere_behaviour.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/sphere_behaviour.cpp.s
+.PHONY : src/sphere_behaviour.cpp.s
+
 src/window.o: src/window.cpp.o
 
 .PHONY : src/window.o
@@ -359,6 +386,9 @@ help:
 	@echo "... src/sphere.o"
 	@echo "... src/sphere.i"
 	@echo "... src/sphere.s"
+	@echo "... src/sphere_behaviour.o"
+	@echo "... src/sphere_behaviour.i"
+	@echo "... src/sphere_behaviour.s"
 	@echo "... src/window.o"
 	@echo "... src/window.i"
 	@echo "... src/window.s"

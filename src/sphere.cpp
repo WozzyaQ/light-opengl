@@ -1,5 +1,7 @@
 #include "sphere.h"
 
+unsigned int Sphere::index = 0;
+
 Sphere::Sphere(std::string texturePath, Shader* shader, unsigned int sector, unsigned int stack , float radius) {
     this->texturePath = texturePath;
     this->shader = shader;
@@ -75,7 +77,10 @@ void Sphere::generateIndices() {
 void Sphere::loadTexture() {
 
     glGenTextures(1,&texture);
-    glActiveTexture(GL_TEXTURE0);
+
+    glActiveTexture(GL_TEXTURE0 + index);
+    indexUp();
+
     glBindTexture(GL_TEXTURE_2D, texture);
 
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
@@ -115,5 +120,47 @@ void Sphere::bindAttributes() {
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
+
+}
+
+void Sphere::draw(int index, Camera* camera, int width, int height) {
+
+    glm::mat4 projection = glm::mat4(1.0f);
+    glm::mat4 view = glm::mat4(1.0f);
+    glm::mat4 model = glm::mat4(1.0f);
+
+    shader->use();
+    shader->setInt("texture1",index);
+
+    glBindVertexArray(VAO);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+//
+        view = glm::mat4(1.0f);
+        view = camera->GetViewMatrix();
+        shader->setMat4("view", view);
+//
+        projection = glm::mat4(1.0f);
+        projection = glm::perspective(glm::radians(camera->Zoom), (float)width / (float)height, 0.001f, 100.0f);
+        shader->setMat4("projection", projection);
+//
+    switch (index) {
+        case 0:
+            model = SphereBehaviour::sunBehaviour();
+            break;
+        case 1:
+            model = SphereBehaviour::venusBehaviour();
+            break;
+    }
+
+//
+        shader->setMat4("model", model);
+//
+        glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, (void*)0);
+
+}
+
+void Sphere::indexUp() {
+    ++index;
 }
 
