@@ -77,18 +77,18 @@ include CMakeFiles/L3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/L3.dir/flags.make
 
-CMakeFiles/L3.dir/src/mmain.cpp.o: CMakeFiles/L3.dir/flags.make
-CMakeFiles/L3.dir/src/mmain.cpp.o: ../src/mmain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/L3.dir/src/mmain.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/mmain.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp
+CMakeFiles/L3.dir/src/stb_image_connector.cpp.o: CMakeFiles/L3.dir/flags.make
+CMakeFiles/L3.dir/src/stb_image_connector.cpp.o: ../src/stb_image_connector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladyslav/CLionProjects/opengl_light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/L3.dir/src/stb_image_connector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L3.dir/src/stb_image_connector.cpp.o -c /home/vladyslav/CLionProjects/opengl_light/src/stb_image_connector.cpp
 
-CMakeFiles/L3.dir/src/mmain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L3.dir/src/mmain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp > CMakeFiles/L3.dir/src/mmain.cpp.i
+CMakeFiles/L3.dir/src/stb_image_connector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L3.dir/src/stb_image_connector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladyslav/CLionProjects/opengl_light/src/stb_image_connector.cpp > CMakeFiles/L3.dir/src/stb_image_connector.cpp.i
 
-CMakeFiles/L3.dir/src/mmain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/mmain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp -o CMakeFiles/L3.dir/src/mmain.cpp.s
+CMakeFiles/L3.dir/src/stb_image_connector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L3.dir/src/stb_image_connector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladyslav/CLionProjects/opengl_light/src/stb_image_connector.cpp -o CMakeFiles/L3.dir/src/stb_image_connector.cpp.s
 
 CMakeFiles/L3.dir/src/main.cpp.o: CMakeFiles/L3.dir/flags.make
 CMakeFiles/L3.dir/src/main.cpp.o: ../src/main.cpp
@@ -183,7 +183,7 @@ CMakeFiles/L3.dir/src/sphere_behaviour.cpp.s: cmake_force
 
 # Object files for target L3
 L3_OBJECTS = \
-"CMakeFiles/L3.dir/src/mmain.cpp.o" \
+"CMakeFiles/L3.dir/src/stb_image_connector.cpp.o" \
 "CMakeFiles/L3.dir/src/main.cpp.o" \
 "CMakeFiles/L3.dir/src/engine.cpp.o" \
 "CMakeFiles/L3.dir/src/window.cpp.o" \
@@ -195,7 +195,7 @@ L3_OBJECTS = \
 # External object files for target L3
 L3_EXTERNAL_OBJECTS =
 
-L3: CMakeFiles/L3.dir/src/mmain.cpp.o
+L3: CMakeFiles/L3.dir/src/stb_image_connector.cpp.o
 L3: CMakeFiles/L3.dir/src/main.cpp.o
 L3: CMakeFiles/L3.dir/src/engine.cpp.o
 L3: CMakeFiles/L3.dir/src/window.cpp.o

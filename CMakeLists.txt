@@ -3,7 +3,7 @@ project(L3)
 
 set(CMAKE_CXX_STANDARD 14)
 include_directories(include)
-add_executable(L3 src/mmain.cpp src/shader.h src/camera.h src/main.cpp src/engine.cpp src/engine.h src/window.cpp src/window.h src/sphere.cpp src/sphere.h src/logic.cpp src/logic.h src/inputhandler.cpp src/inputhandler.h src/sphere_behaviour.cpp src/sphere_behaviour.h)
+add_executable(L3 src/stb_image_connector.cpp src/shader.h src/camera.h src/main.cpp src/engine.cpp src/engine.h src/window.cpp src/window.h src/sphere.cpp src/sphere.h src/logic.cpp src/logic.h src/inputhandler.cpp src/inputhandler.h src/sphere_behaviour.cpp src/sphere_behaviour.h)
 
 target_link_libraries(L3 -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl -lGLEW)
 

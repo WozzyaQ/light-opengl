@@ -1,3 +1,6 @@
+//
+// Created by vladyslav on 10.12.2020.
+//
 #include "sphere.h"
 
 unsigned int Sphere::index = 0;
@@ -20,6 +23,7 @@ Sphere::Sphere(std::string texturePath, Shader* shader, unsigned int sector, uns
 void Sphere::generateVertices() {
     float x, y, z, xy;
     float p, q;
+    float nx, ny, nz, lenInv = 1.0f/radius;
 
     float sectorStep = 2.0 * M_PI / (float)sector;
     float stackStep = M_PI / (float)stack;
@@ -40,6 +44,14 @@ void Sphere::generateVertices() {
             vertices.push_back(x);
             vertices.push_back(y);
             vertices.push_back(z);
+
+            nx = x * lenInv;
+            ny = y * lenInv;
+            nz = z * lenInv;
+
+            vertices.push_back(nx);
+            vertices.push_back(ny);
+            vertices.push_back(nz);
 
             p = (float)j / sector;
             q = (float)i / stack;
@@ -116,46 +128,30 @@ void Sphere::bindAttributes() {
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(float), &indices[0], GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
-    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
+    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
+    glEnableVertexAttribArray(2);
+
 
 }
 
 void Sphere::draw(int index, Camera* camera, int width, int height) {
 
-    glm::mat4 projection = glm::mat4(1.0f);
-    glm::mat4 view = glm::mat4(1.0f);
-    glm::mat4 model = glm::mat4(1.0f);
-
-    shader->use();
-    shader->setInt("texture1",index);
-
-    glBindVertexArray(VAO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-//
-        view = glm::mat4(1.0f);
-        view = camera->GetViewMatrix();
-        shader->setMat4("view", view);
-//
-        projection = glm::mat4(1.0f);
-        projection = glm::perspective(glm::radians(camera->Zoom), (float)width / (float)height, 0.001f, 100.0f);
-        shader->setMat4("projection", projection);
-//
     switch (index) {
         case 0:
-            model = SphereBehaviour::sunBehaviour();
+            SphereBehaviour::sunBehaviour(shader, index, camera, width, height);
             break;
         case 1:
-            model = SphereBehaviour::venusBehaviour();
+            SphereBehaviour::venusBehaviour(shader, index, camera, width, height);
             break;
     }
 
-//
-        shader->setMat4("model", model);
-//
+        glBindVertexArray(VAO);
+        glBindBuffer(GL_ARRAY_BUFFER, VBO);
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
         glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, (void*)0);
 
 }

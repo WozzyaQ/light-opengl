@@ -1,3 +1,6 @@
+//
+// Created by vladyslav on 10.12.2020.
+//
 #ifndef L3_WINDOW_H
 #define L3_WINDOW_H
 

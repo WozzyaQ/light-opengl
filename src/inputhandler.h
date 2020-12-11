@@ -1,13 +1,11 @@
 //
 // Created by vladyslav on 10.12.2020.
 //
-
 #ifndef L3_INPUTHANDLER_H
 #define L3_INPUTHANDLER_H
 
 #include "camera.h"
 #include "window.h"
-#include <GLFW/glfw3.h>
 
 class InputHandler {
 private:
@@ -27,6 +25,5 @@ public:
     static void mouseCallback(GLFWwindow*, double, double);
     static void scrollCallback(GLFWwindow*, double, double);
 };
-
 
 #endif //L3_INPUTHANDLER_H

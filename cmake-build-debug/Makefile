@@ -251,33 +251,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/mmain.o: src/mmain.cpp.o
-
-.PHONY : src/mmain.o
-
-# target to build an object file
-src/mmain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/mmain.cpp.o
-.PHONY : src/mmain.cpp.o
-
-src/mmain.i: src/mmain.cpp.i
-
-.PHONY : src/mmain.i
-
-# target to preprocess a source file
-src/mmain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/mmain.cpp.i
-.PHONY : src/mmain.cpp.i
-
-src/mmain.s: src/mmain.cpp.s
-
-.PHONY : src/mmain.s
-
-# target to generate assembly for a file
-src/mmain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/mmain.cpp.s
-.PHONY : src/mmain.cpp.s
-
 src/sphere.o: src/sphere.cpp.o
 
 .PHONY : src/sphere.o
@@ -332,6 +305,33 @@ src/sphere_behaviour.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/sphere_behaviour.cpp.s
 .PHONY : src/sphere_behaviour.cpp.s
 
+src/stb_image_connector.o: src/stb_image_connector.cpp.o
+
+.PHONY : src/stb_image_connector.o
+
+# target to build an object file
+src/stb_image_connector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/stb_image_connector.cpp.o
+.PHONY : src/stb_image_connector.cpp.o
+
+src/stb_image_connector.i: src/stb_image_connector.cpp.i
+
+.PHONY : src/stb_image_connector.i
+
+# target to preprocess a source file
+src/stb_image_connector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/stb_image_connector.cpp.i
+.PHONY : src/stb_image_connector.cpp.i
+
+src/stb_image_connector.s: src/stb_image_connector.cpp.s
+
+.PHONY : src/stb_image_connector.s
+
+# target to generate assembly for a file
+src/stb_image_connector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L3.dir/build.make CMakeFiles/L3.dir/src/stb_image_connector.cpp.s
+.PHONY : src/stb_image_connector.cpp.s
+
 src/window.o: src/window.cpp.o
 
 .PHONY : src/window.o
@@ -380,15 +380,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/mmain.o"
-	@echo "... src/mmain.i"
-	@echo "... src/mmain.s"
 	@echo "... src/sphere.o"
 	@echo "... src/sphere.i"
 	@echo "... src/sphere.s"
 	@echo "... src/sphere_behaviour.o"
 	@echo "... src/sphere_behaviour.i"
 	@echo "... src/sphere_behaviour.s"
+	@echo "... src/stb_image_connector.o"
+	@echo "... src/stb_image_connector.i"
+	@echo "... src/stb_image_connector.s"
 	@echo "... src/window.o"
 	@echo "... src/window.i"
 	@echo "... src/window.s"

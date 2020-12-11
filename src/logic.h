@@ -1,8 +1,9 @@
+//
+// Created by vladyslav on 10.12.2020.
+//
 #ifndef L3_LOGIC_H
 #define L3_LOGIC_H
-#include <utility>
 #include "sphere.h"
-#include "camera.h"
 class Logic {
 private:
     std::vector<Sphere*> spheres;

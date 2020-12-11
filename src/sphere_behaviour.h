@@ -4,14 +4,21 @@
 
 #ifndef L3_SPHERE_BEHAVIOUR_H
 #define L3_SPHERE_BEHAVIOUR_H
+#include "camera.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <GLFW/glfw3.h>
+#include "shader.h"
+
 
 class SphereBehaviour {
+    static glm::mat4 model;
+    static glm::mat4 view;
+    static glm::mat4 projection;
 public:
-    static glm::mat4  sunBehaviour();
-    static glm::mat4 venusBehaviour();
+    static void sunBehaviour(const Shader*, int, Camera*, int, int);
+    static void venusBehaviour(const Shader*, int, Camera*, int, int);
+    static void initMatrices();
 };
 
 

@@ -108,9 +108,6 @@
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/main.cpp">
 			<Option target="L3"/>
 		</Unit>
-		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/mmain.cpp">
-			<Option target="L3"/>
-		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/shader.h">
 			<Option target="L3"/>
 		</Unit>
@@ -124,6 +121,9 @@
 			<Option target="L3"/>
 		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/sphere_behaviour.h">
+			<Option target="L3"/>
+		</Unit>
+		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/stb_image_connector.cpp">
 			<Option target="L3"/>
 		</Unit>
 		<Unit filename="/home/vladyslav/CLionProjects/opengl_light/src/window.cpp">

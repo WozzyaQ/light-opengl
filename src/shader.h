@@ -1,17 +1,15 @@
-
-
 #ifndef SHADER_H
 #define SHADER_H
+#include "../utils/stb_image.h"
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-#include <string>
 #include <fstream>
 #include <sstream>
-#include <iostream>
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include <iostream>
 
 class Shader {
     unsigned int ID;
@@ -117,6 +115,11 @@ public:
     {
         unsigned int transformLoc = glGetUniformLocation(ID, name.c_str());
         glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(value));
+    }
+
+    void setVec3(const std::string& name, const glm::vec3& value) const
+    {
+        glUniform3fv(glGetUniformLocation(ID, name.c_str()), 1, &value[0]);
     }
 
 };

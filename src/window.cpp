@@ -1,3 +1,6 @@
+//
+// Created by vladyslav on 10.12.2020.
+//
 #include "window.h"
 
 Window::Window() {

@@ -1,3 +1,6 @@
+//
+// Created by vladyslav on 10.12.2020.
+//
 #include "engine.h"
 
 
@@ -18,6 +21,9 @@ void Engine::init() {
 }
 
 void Engine::loop() {
+
+
+    glEnable(GL_DEPTH_TEST);
 
     float dt = 0.0f;
     float lastFrame = 0.0f;

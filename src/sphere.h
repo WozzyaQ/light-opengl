@@ -1,17 +1,14 @@
 //
 // Created by vladyslav on 10.12.2020.
 //
-
 #ifndef L3_SPHERE_H
 #define L3_SPHERE_H
-#include "../utils/stb_image.h"
 
 #include <vector>
 #include <GL/glew.h>
 #include "shader.h"
 #include "camera.h"
 #include "sphere_behaviour.h"
-#define STB_IMAGE_IMPLEMENTATION
 
 class Sphere {
 private:
@@ -39,6 +36,8 @@ public:
     void loadTexture();
     void bindAttributes();
     void draw(int, Camera*, int width, int height);
+
+    Shader* getShader();
 };
 
 
