@@ -5,8 +5,8 @@
 
 int main()
 {
-    int windowWidth = 1366;
-    int windowHeight = 720;
+    int windowWidth = 1920;
+    int windowHeight = 1080;
     std::string title = "Primitive Solar System";
     Camera camera = Camera(glm::vec3(0.0f, 30.0f, 30.0f));
 
@@ -16,13 +16,7 @@ int main()
 
     std::string sunTexturePath = "/home/vladyslav/CLionProjects/opengl_light/res/sun.jpg";
     std::string venusTexturePath = "/home/vladyslav/CLionProjects/opengl_light/res/venus.jpg";
-
-//    std::string sphereVertexPath = "/home/vladyslav/CLionProjects/opengl_light/res/light.vert";
-//    std::string sphereFragmentPath = "/home/vladyslav/CLionProjects/opengl_light/res/light.frag";
-
-//    std::string sphereVertexPath = "/home/vladyslav/CLionProjects/opengl_light/res/sphere.vert";
-//    std::string sphereFragmentPath = "/home/vladyslav/CLionProjects/opengl_light/res/sphere.frag";
-
+    
     std::string sunVertexPath = "/home/vladyslav/CLionProjects/opengl_light/res/sun.vert";
     std::string sunFragmentPath = "/home/vladyslav/CLionProjects/opengl_light/res/sun.frag";
 

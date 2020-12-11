@@ -1414,17 +1414,9 @@ GL/glew.h
 glm/gtc/matrix_transform.hpp
 -
 
-/home/vladyslav/CLionProjects/opengl_light/src/engine.cpp
-engine.h
-/home/vladyslav/CLionProjects/opengl_light/src/engine.h
-
 /home/vladyslav/CLionProjects/opengl_light/src/engine.h
 logic.h
 /home/vladyslav/CLionProjects/opengl_light/src/logic.h
-inputhandler.h
-/home/vladyslav/CLionProjects/opengl_light/src/inputhandler.h
-
-/home/vladyslav/CLionProjects/opengl_light/src/inputhandler.cpp
 inputhandler.h
 /home/vladyslav/CLionProjects/opengl_light/src/inputhandler.h
 
